@@ -1,0 +1,15 @@
+:root {
+  --background-color: #14120b;
+  --primary-color: #ffffff;
+  --hover-color: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+}
