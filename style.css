@@ -24,6 +24,12 @@ header {
   align-items: center;
   justify-content: space-between;
   color: var(--primary-color);
+  background-color: var(--background-color);
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header ul {
