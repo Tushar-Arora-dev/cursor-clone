@@ -253,3 +253,55 @@ main {
 .testimonial-details img {
   border-radius: 4px;
 }
+
+/* Frontier section */
+
+#frontier {
+  margin-top: 200px;
+  color: var(--primary-color);
+}
+
+#frontier h2 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.frontier-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.frontier-card {
+  padding: 16px;
+  background-color: #1b1913;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.frontier-card h3 {
+  font-weight: 300;
+  color: #edecec;
+}
+
+.frontier-card p {
+  color: #999997;
+  line-height: 1.6;
+}
+
+.frontier-card a {
+  color: #f54e00;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.frontier-card a:hover {
+  color: #c0420f;
+  transition: color 0.2s;
+}
