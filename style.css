@@ -305,3 +305,73 @@ main {
   color: #c0420f;
   transition: color 0.2s;
 }
+
+/* Change log section */
+
+#changelog {
+  margin-top: 100px;
+  color: var(--primary-color);
+}
+
+#changelog h2 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.changelog-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.changelog-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1913;
+  height: 120px;
+  padding: 16px 17px 20px 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.changelog-card:hover{
+  background-color: #1d1b15;
+  transition: background-color 0.2s;
+}
+.changelog-details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height:auto;
+  /* margin-bottom: 10px; */
+  height: 40px;
+}
+.changelog-card .changelog-version-no{
+  border: 1px solid lightslategray;
+  padding: 5px 13px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+.changelog-card .changelog-date{
+  color: #999997;
+  font-size: 16px;
+}
+
+.changelog-card p{
+  font-size: 16px;
+  color: #edecec;
+  margin-top: 5px;
+}
+
+#changelog a{
+  color: #f54e00;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#changelog a:hover{
+  color: #c0420f;
+}
