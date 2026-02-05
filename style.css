@@ -483,3 +483,134 @@ p:nth-child(3) {
   color: #c0420f;
   transition: color 0.2s;
 }
+
+/* CTA section */
+#cta{
+  background-color: var(--background-color);
+  padding: 135px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--primary-color);
+  gap: 10px;
+}
+
+
+#cta h2{
+  font-size: 72px;
+  font-weight: 300;
+}
+
+#cta button{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  gap: 5px;
+}
+
+/* Footer */
+
+footer{
+  background-color: #1b1913;
+  padding: 67px 0px 0px;
+}
+
+footer > div{
+  width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.footer-menus{
+color: var(--primary-color);
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.footer-menus ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.footer-menus ul li{
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-menus h3{
+  font-size: 14px;
+  color: #999997;
+  font-weight: 300;
+}
+
+.footer-extra{
+  /* border: 1px solid red; */
+  align-items: center;
+  margin-top: 100px;
+  /* padding: 0px 5px; */
+  display: flex;
+  justify-content: space-between;
+  color: #999997;
+  font-size: 14px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.footer-extras-left a{
+  color: #999997;
+  text-decoration: none;
+}
+
+.footer-extras-left a:hover{
+  color: var(--primary-color);
+  /* text-decoration: none; */
+}
+
+.footer-extras-left span{
+  margin-right: 5px;
+}
+
+.footer-extras-right{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-buttons-pill, .lang-pill{
+  background-color: rgb(38, 36, 30);
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  justify-content: space-between;
+  padding: 3px 0px;
+  border-radius: 3.40282e38px;
+}
+
+.theme-buttons-pill span{
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.active-pill{
+  background-color: #99999775;
+  padding: 5px 10px;
+  border-radius: 3.40282e38px;
+}
+
+.lang-pill{
+  padding: 9px 15px;
+  display: flex;
+  gap: 5px;
+}
