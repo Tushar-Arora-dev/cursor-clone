@@ -126,3 +126,12 @@ Additional elements:
 - **Google Fonts (Inter)**
 - **Flexbox**
 - **Grid**
+
+## **Color Palette**
+
+- background-color: #14120b;
+- background-color-second: #1b1913;
+- primary-color: #ffffff;
+- hover-color: #cccccc;
+- #edececbc
+- #cccccc4b
