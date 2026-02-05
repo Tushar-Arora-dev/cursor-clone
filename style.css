@@ -139,3 +139,60 @@ main {
 .company-cards img {
   width: 60px;
 }
+
+/* Feature section */
+
+#features {
+  margin-top: 100px;
+}
+
+.feature-card {
+  background-color: #1b1913;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  cursor: pointer;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+
+.feature-text h3 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  /* width: 250px; */
+  text-align: left;
+  font-size: 22px;
+  color: #999997;
+  list-style: 1.2;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.feature-link {
+  text-decoration: none;
+  color: #f54e00;
+  font-size: 16px;
+}
+
+.feature-link:hover {
+  color: #c0420f;
+}
+
+.feature-card:hover {
+  background-color: #1d1b15;
+}
+
+.feature-text {
+  padding-right: 40px;
+}
+
+.feature-text-right {
+  margin-left: 30px;
+  padding-left: 0;
+  /* padding-left: 20px; */
+}
