@@ -74,7 +74,37 @@ header .download-btn {
 /* Main section  */
 
 main {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1300px;
   margin: auto;
+}
+
+#hero-section {
+  padding-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+#hero-section h1 {
+  color: white;
+  font-weight: 300;
+  width: 650px;
+  line-height: 1.3;
+}
+
+#hero-section .download-btn-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-section-img {
+  margin-top: 35px;
 }
