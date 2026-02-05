@@ -12,4 +12,69 @@
 
 body {
   background-color: var(--background-color);
+  font-family: "Inter", sans-serif;
+}
+
+/* Header section css */
+header {
+  /* border: 1px solid red; */
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-color);
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+header ul li {
+  padding: 20px 20px;
+  cursor: pointer;
+  /* transition: color 0.5s; */
+}
+
+header ul li:hover {
+  color: var(--hover-color);
+  transition: color 0.5s;
+}
+
+header .sign-in-btn {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 0.5px solid #edececbc;
+  padding: 5px 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  font-weight: 200;
+}
+
+header .sign-in-btn:hover {
+  background-color: #cccccc4b;
+  transition: background-color 0.2s;
+}
+
+header .download-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+/* Main section  */
+
+main {
+  border: 1px solid red;
+  width: 1300px;
+  margin: auto;
 }
